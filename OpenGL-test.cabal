@@ -1,0 +1,19 @@
+name:           OpenGL-test
+version:        0.1
+cabal-version:  >=1.2
+build-type:     Simple
+author:         ncrashed
+data-files:     
+                media/fragment.glsl, 
+                media/vertex.glsl
+
+executable OpenGL-test
+  hs-source-dirs:  src
+  main-is:         Main.hs
+  build-depends:   
+                   base >= 4,
+                   GLFW-b >=1.4.6 && <1.5,
+                   OpenGL >=2.9.1 && <2.10,
+                   bytestring >=0.10.0 && <0.11
+  ghc-options:     -Wall
+
