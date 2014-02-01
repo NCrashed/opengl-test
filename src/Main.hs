@@ -7,7 +7,7 @@ import qualified Data.ByteString as B
 import System.Exit
 import System.IO
 
-import Paths_OpenGL_test
+import Paths_OpenGL_test 
 
 -- tiny utility functions, in the same spirit as 'maybe' or 'either'
 -- makes the code a wee bit cleaner
